@@ -1,0 +1,216 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 20px;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+/* Add the hidden class rule here */
+.hidden {
+    display: none;
+}
+/* Top Section */
+.top-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.headshot-container {
+    flex: 0 0 auto;
+    margin-right: 2em;
+}
+
+.resume-headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    object-fit: cover;
+}
+
+.contact-info h1 {
+    margin-bottom: 0.5em;
+}
+
+.contact-info .contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contact-icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Resume Sections */
+.resume-section {
+    margin-bottom: 2em;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.resume-section h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Timeline Styles for Employment and Projects */
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    list-style: none;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #007bff;
+}
+
+.timeline-entry {
+    margin-bottom: 20px;
+}
+
+.timeline-entry:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-entry:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 11px;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #007bff;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .top-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headshot-container {
+        margin-bottom: 20px;
+    }
+
+    .contact-info h1 {
+        text-align: center;
+    }
+
+    .contact-icons {
+        justify-content: center;
+    }
+
+    .contact-icon img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Primary navigation */
+.primary-nav {
+    margin-bottom: 2em;
+}
+
+.primary-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 6px;
+}
+
+.primary-nav li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.primary-nav li:last-child {
+    border-right: none;
+}
+
+.primary-nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.primary-nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.primary-nav .active {
+    background-color: #04AA6D;
+}
+
+/* Practice Table */
+.practice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.95em;
+}
+
+.practice-table caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.practice-table th,
+.practice-table td {
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    text-align: left;
+}
+
+.practice-table thead,
+.practice-table tfoot {
+    background-color: #f0f4ff;
+}
+
+.practice-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
