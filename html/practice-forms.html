@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Activity: HTML Forms</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="forms-page">
+    <main class="forms-wrapper">
+        <section class="forms-card">
+            <h1>Practice Activity: HTML Forms</h1>
+            <p class="forms-note">Login and Register screens built with plain HTML to mirror the class exercise.</p>
+            <div class="forms-grid">
+                <form class="login-panel">
+                    <fieldset>
+                        <legend>Login Page</legend>
+                        <label>Email
+                            <input type="email" name="login-email" placeholder="Enter your email" required>
+                        </label>
+                        <label>Password
+                            <input type="password" name="login-password" placeholder="Enter your password" required>
+                        </label>
+                        <button type="submit">Login</button>
+                    </fieldset>
+                </form>
+                <form class="register-panel">
+                    <fieldset>
+                        <legend>Register Page</legend>
+                        <label>First Name
+                            <input type="text" name="first-name" placeholder="Enter your first name" required>
+                        </label>
+                        <label>Last Name
+                            <input type="text" name="last-name" placeholder="Enter your last name" required>
+                        </label>
+                        <label>Email
+                            <input type="email" name="register-email" placeholder="Enter your email" required>
+                        </label>
+                        <label>Password
+                            <input type="password" name="register-password" placeholder="Enter your password" required>
+                        </label>
+                        <label>Confirm Password
+                            <input type="password" name="confirm-password" placeholder="Confirm your password" required>
+                        </label>
+                        <fieldset class="inline-fieldset">
+                            <legend>Gender</legend>
+                            <label><input type="radio" name="gender" value="female" required> Female</label>
+                            <label><input type="radio" name="gender" value="male"> Male</label>
+                        </fieldset>
+                        <label>Date of Birth
+                            <input type="date" name="dob" placeholder="mm/dd/yyyy">
+                        </label>
+                        <fieldset class="inline-fieldset">
+                            <legend>Habits</legend>
+                            <label><input type="checkbox" name="habits" value="sports"> You like sports</label>
+                            <label><input type="checkbox" name="habits" value="eat"> You like to eat</label>
+                            <label><input type="checkbox" name="habits" value="sleep"> You like to sleep</label>
+                        </fieldset>
+                        <button type="submit">Register</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <p class="forms-back-link"><a href="index.html">&larr; Back to Resume</a></p>
+    </main>
+</body>
+</html>
+

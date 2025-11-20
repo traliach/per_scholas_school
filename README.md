@@ -4,15 +4,17 @@ This repo helps me learn front-end basics (HTML/CSS/JS) through two simple
 examples:
 
 - `index.html` – my DevOps resume laid out as a single-page site. It links to
-  `styles.css` for layout/typography and `scripts.js` for interactivity.
+  `styles.css` for layout/typography and `scripts.js` for interactivity ( for Now it's commented out)
 - `table_styling.html` – a tiny practice file that focuses on table semantics
   (`caption`, `thead`, `tbody`, `tfoot`) so I can experiment with table styling.
+- `practice-forms.html` – a stand-alone page showing the Login/Register form
+  exercise using two `<fieldset>` blocks.
 
 ## Practice Log
 
 - Added a horizontal navigation bar to `index.html` using a styled `<ul>` list.
 - Converted the practice table into a meaningful “Skills Matrix” section.
-
+- Built `practice-forms.html` with the login/register exercise from class.
 ## How to Run
 
 1. Open either HTML file with Live Server (VS Code extension) or by dragging it

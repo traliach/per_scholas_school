@@ -214,3 +214,113 @@ li {
 .practice-table tbody tr:nth-child(even) {
     background-color: #fafafa;
 }
+
+/* Practice forms standalone page */
+.forms-page {
+    background-color: #f4f6fb;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.forms-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.forms-card {
+    background: #fff;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(27, 39, 94, 0.1);
+}
+
+.forms-card h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.forms-note {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #555;
+}
+
+.forms-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.forms-grid form {
+    flex: 1 1 300px;
+}
+
+.forms-grid fieldset {
+    border: 1px solid #d7dfea;
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.forms-grid legend {
+    font-weight: 700;
+    padding: 0 8px;
+}
+
+.forms-grid label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+}
+
+.forms-grid input[type="text"],
+.forms-grid input[type="email"],
+.forms-grid input[type="password"],
+.forms-grid input[type="date"] {
+    margin-top: 6px;
+    padding: 8px;
+    border: 1px solid #c8d2e2;
+    border-radius: 4px;
+}
+
+.forms-grid button {
+    margin-top: 8px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.forms-grid button:hover {
+    background: #005fc7;
+}
+
+.forms-card .inline-fieldset {
+    margin-bottom: 12px;
+}
+
+.forms-card .inline-fieldset label {
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.forms-card .inline-fieldset input {
+    margin-right: 6px;
+}
+
+.forms-back-link {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.forms-back-link a {
+    color: #0b62d6;
+}
