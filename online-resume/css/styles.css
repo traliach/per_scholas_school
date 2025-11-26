@@ -6,13 +6,12 @@
 
 :root {
     --bg-dark: #101425;
-    --panel-dark: #181c27;
-    --panel-accent: #1f2432;
+    --panel-dark: #1d2233;
     --highlight: #44c8f5;
     --highlight-secondary: #f9aa33;
     --muted: #8da4c7;
-    --text-light: #e6ecff;
-    --surface-border: rgba(255, 255, 255, 0.08);
+    --text-light: #f5f8ff;
+    --surface-border: rgba(255, 255, 255, 0.1);
     --dot-size: 14px;
 }
 
@@ -48,11 +47,10 @@ a:focus-visible {
 }
 
 .panel {
-    background: linear-gradient(145deg, var(--panel-dark), var(--panel-accent));
+    background: var(--panel-dark);
     border: 1px solid var(--surface-border);
-    border-radius: 18px;
-    padding: 32px;
-    box-shadow: 0 20px 35px rgba(5, 8, 15, 0.35);
+    border-radius: 16px;
+    padding: 28px;
 }
 
 .panel-hero {
@@ -114,11 +112,10 @@ a:focus-visible {
     width: 44px;
     height: 44px;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.08);
     border: 1px solid transparent;
     align-items: center;
     justify-content: center;
-    transition: border-color 0.3s ease;
 }
 
 .contact-icon:hover,
@@ -196,10 +193,9 @@ a:focus-visible {
 
 .history-card {
     border: 1px solid var(--surface-border);
-    border-radius: 14px;
-    padding: 20px 22px;
-    background: rgba(17, 23, 38, 0.65);
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    padding: 18px 20px;
+    background: #181c2a;
     margin-bottom: 18px;
 }
 
@@ -251,8 +247,8 @@ a:focus-visible {
 
 .skills-block {
     padding: 18px 20px;
-    border-radius: 14px;
-    background: rgba(3, 6, 15, 0.65);
+    border-radius: 12px;
+    background: #14192a;
     border: 1px solid var(--surface-border);
 }
 
@@ -293,7 +289,6 @@ a:focus-visible {
     height: 100%;
     background: linear-gradient(90deg, var(--highlight), var(--highlight-secondary));
     border-radius: 999px;
-    box-shadow: 0 6px 15px rgba(68, 200, 245, 0.35);
 }
 
 .skill-bar .percent {
