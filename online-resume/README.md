@@ -1,19 +1,18 @@
-# Online Resume (PA 307.4.1)
+# Online Resume form course (PA 307.4.1) 
 
-This folder is a self-contained copy of my HTML/CSS resume project. Everything is plain markup and styles so I can open it directly in a browser (no build tools).
+This folder is a self-contained copy of my HTML/CSS resume project. Everything is plain markup and styles so I can open it directly in a browser 
 
 ## Folder Structure
 
-- `html/index.html` – main resume page with three sections (profile, employment/education, skills).
-- `css/styles.css` – single stylesheet for the resume layout and responsive tweaks.
+- `html/index.html` –  The main resume page with three sections (profile, employment/education, skills).
+- `css/styles.css` – A single stylesheet for the resume layout and responsive tweaks.
 - `assets/images/` – headshot, contact icons, and the original wireframe screenshot.
-- `README.md` – this overview plus resource links.
+- `README.md` – this overview plus resource links where i looked up 
 
 ## How to View
 
-1. Open the `online-resume` folder in VS Code (or any editor with Live Server).
-2. Launch Live Server on `html/index.html` or open it via `file:///`.
-3. Resize the browser to see the desktop vs. mobile layout (two-column grid collapses to a single column under 900px).
+1. Open the `online-resume` folder in VS Code Live Server
+2. Resize the browser to see the desktop vs. mobile layout.
 
 ## Notes
 
